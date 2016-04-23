@@ -498,37 +498,6 @@ float fixang(float ang)
     return ang;
 }
 
-// ELO
-void CalcElo(float ratingA, float ratingB, float scoreA, float scoreB, float &newRatingA, float &newRatingB)
-{
-    static const float KFACTOR = 16.0f;
-    float expectedA = 1.0f / ( 1.0f + ( std::pow( 10.0f , ( ratingB - ratingA ) / 400.0f ) ) );
-    float expectedB = 1.0f / ( 1.0f + ( std::pow( 10.0f , ( ratingA - ratingB ) / 400.0f ) ) );
-    newRatingA = ratingA + ( KFACTOR * ( scoreA - expectedA ) );
-    newRatingB = ratingB + ( KFACTOR * ( scoreB - expectedB ) );
-}
-#if 0 // TODO
-namespace engine
-{
-int GetLine(const char *&ptr, std::string &line)
-{
-    int i = 0;
-    for (i = 0; i < count - 1; i++)
-    {
-        int readRet = ReadBuffered(buf + i, 1);
-        if (readRet != 1)
-        {
-            if (readRet != 0) logoutf("WARNING: FileIO::GetS: SDL_RWread(1) returned %d", readRet);
-            if (i == 0) return 0;
-            break;
-        }
-        if (buf[i] == '\n') break;
-    }
-    buf[i] = '\0';
-}
-};
-#endif // 0
-
 std::string GetFileContents(const char *filename, FileLocation location, int pos)
 {
     if (!filename)

@@ -678,20 +678,7 @@ VAR(dbgmodes, 0, 0, 1);
 
 static std::string GetTitle()
 {
-#ifdef _KINECT_GAME
-    std::string dev = kinect_device_uri;
-    std::string ret = std::string(
-#ifdef _DEBUG
-        "SDLGL 2 Debug"
-#else
-        "SDLGL 2 Release"
-#endif
-      );
-    if (dev.length()) ret += ": " + dev;
-    return ret;
-#else
-    return "SDLGL2";
-#endif // _KINECT_GAME
+    return "Cube2 on Android";
 }
 
 void setupscreen()
@@ -1158,7 +1145,6 @@ void checkinput()
                     }
 
                     case SDL_WINDOWEVENT_MINIMIZED:
-                        // TODO: XXX: TEST
 //#warning Disabled minimization
                         //minimized = true;
                         break;
@@ -1470,11 +1456,6 @@ bool Main_Start(int argc, char **argv)
 	if (!fi.Open(NOTEXTURE_PATH, "rb")) my_chdir("..");
 	else fi.Close();
 
-#ifndef __ANDROID__
-	createdir("obj");
-	createdir("faces");
-#endif // __ANDROID__
-
 	bool setLogFile = false;
 	for (int i = 1; i < argc; i++)
 	{
@@ -1507,20 +1488,7 @@ bool Main_Start(int argc, char **argv)
 		}
 		else
 		{
-#define _OPEN_URI(ext, prefix) \
-            if (strstr(argv[i], ext)) \
-            { \
-                execfile(CONFIG_PATH "/init.cfg"); \
-                std::string code = "kinect_device_uri \"" prefix; code += argv[i]; code += '\"'; \
-                execute(code.c_str()); \
-            } \
-            else
-
-			_OPEN_URI(".dat", "rec://")
-				_OPEN_URI(".face", "face://")
-				_OPEN_URI(".depth", "depth://")
-				gameargs.add(argv[i]); // last else
-#undef _OPEN_URI
+            gameargs.add(argv[i]); // last else
 		}
 	}
 	if (!setLogFile)
@@ -1534,7 +1502,6 @@ bool Main_Start(int argc, char **argv)
 	{
 		logoutf("init: sdl");
 		Uint32 flags = SDL_INIT_TIMER | SDL_INIT_VIDEO;
-		// TODO: XXX
 		if (!nosound)
 			flags |= SDL_INIT_AUDIO;
 		if (SDL_Init(flags) < 0)

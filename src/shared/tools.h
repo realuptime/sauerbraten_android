@@ -1427,7 +1427,6 @@ std::string &trimString(std::string &str);
 std::string &leftTrimString(std::string &str);
 std::string &rightTrimString(std::string &str);
 bool strICaseCmd(char const *i_str1, char const *i_str2);
-void CalcElo(float ratingA, float ratingB, float scoreA, float scoreB, float &newRatingA, float &newRatingB);
 const char *TimeStampToDate(time_t t);
 
 extern float fixang(float ang);
