@@ -1,0 +1,892 @@
+# depslib dependency file v1.0
+1461363179 source:c:\_\work\projects\sauerbraten_android\src\engine\engine.h
+	"cube.h"
+	"world.h"
+	"octa.h"
+	"lightmap.h"
+	"bih.h"
+	"texture.h"
+	"model.h"
+
+1461363002 c:\_\work\projects\sauerbraten_android\src\shared\cube.h
+	<algorithm>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<stdarg.h>
+	<limits.h>
+	<assert.h>
+	<time.h>
+	"windows.h"
+	<eh.h>
+	<dbghelp.h>
+	<intrin.h>
+	"SDL2/SDL.h"
+	"SDL2/SDL_opengl.h"
+	<SDL.h>
+	<SDL.h>
+	<GLES2/gl2ext.h>
+	<memory>
+	<wrl.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<EGL/egl.h>
+	<EGL/eglext.h>
+	<EGL/eglplatform.h>
+	<angle_windowsstore.h>
+	<SDL.h>
+	<SDL.h>
+	<GL/glew.h>
+	<enet/enet.h>
+	<zlib.h>
+	"tools.h"
+	"geom.h"
+	"ents.h"
+	"command.h"
+	"glexts.h"
+	"glemu.h"
+	"iengine.h"
+	"igame.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_premake.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_minimal.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\begin_code.h
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\close_code.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_opengl.h
+	"SDL_config.h"
+	"gl_mangle.h"
+	<windows.h>
+	"SDL_opengl_glext.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_opengl_glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\enet\include\enet\enet.h
+	<stdlib.h>
+	"enet/win32.h"
+	"enet/unix.h"
+	"enet/types.h"
+	"enet/protocol.h"
+	"enet/list.h"
+	"enet/callbacks.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\enet\include\enet\win32.h
+	<stdlib.h>
+	<winsock2.h>
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\enet\include\enet\unix.h
+	<stdlib.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<unistd.h>
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\enet\include\enet\types.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\enet\include\enet\protocol.h
+	"enet/types.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\enet\include\enet\list.h
+	<stdlib.h>
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\enet\include\enet\callbacks.h
+	<stdlib.h>
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\zlib.h
+	"zconf.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1461362297 c:\_\work\projects\sauerbraten_android\src\shared\tools.h
+	<algorithm>
+	<direct.h>
+	<unistd.h>
+	<string>
+
+1461002467 c:\_\work\projects\sauerbraten_android\src\shared\geom.h
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\shared\ents.h
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\shared\command.h
+
+1461024052 c:\_\work\projects\sauerbraten_android\src\shared\glexts.h
+
+1461020973 c:\_\work\projects\sauerbraten_android\src\shared\glemu.h
+
+1461409965 c:\_\work\projects\sauerbraten_android\src\shared\iengine.h
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\shared\igame.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\world.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\octa.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\lightmap.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\bih.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\texture.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\model.h
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\game.h
+	"cube.h"
+	"ai.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\fpsgame\ai.h
+
+1461363002 source:c:\_\work\projects\sauerbraten_android\src\shared\cube.h
+	<algorithm>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<stdarg.h>
+	<limits.h>
+	<assert.h>
+	<time.h>
+	"windows.h"
+	<eh.h>
+	<dbghelp.h>
+	<intrin.h>
+	"SDL2/SDL.h"
+	"SDL2/SDL_opengl.h"
+	<SDL.h>
+	<SDL.h>
+	<GLES2/gl2ext.h>
+	<memory>
+	<wrl.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<EGL/egl.h>
+	<EGL/eglext.h>
+	<EGL/eglplatform.h>
+	<angle_windowsstore.h>
+	<SDL.h>
+	<SDL.h>
+	<GL/glew.h>
+	<enet/enet.h>
+	<zlib.h>
+	"tools.h"
+	"geom.h"
+	"ents.h"
+	"command.h"
+	"glexts.h"
+	"glemu.h"
+	"iengine.h"
+	"igame.h"
+
+1461410265 source:c:\_\work\projects\sauerbraten_android\src\engine\3dgui.cpp
+	"engine.h"
+	"textedit.h"
+
+1461363179 c:\_\work\projects\sauerbraten_android\src\engine\engine.h
+	"cube.h"
+	"world.h"
+	"octa.h"
+	"lightmap.h"
+	"bih.h"
+	"texture.h"
+	"model.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\textedit.h
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\bih.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\blend.cpp
+	"engine.h"
+
+1461407206 source:c:\_\work\projects\sauerbraten_android\src\engine\blob.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\client.cpp
+	"engine.h"
+
+1461362395 source:c:\_\work\projects\sauerbraten_android\src\engine\command.cpp
+	"engine.h"
+
+1461410288 source:c:\_\work\projects\sauerbraten_android\src\engine\console.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\cubeloader.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\decal.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\dynlight.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\glare.cpp
+	"engine.h"
+	"rendertarget.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\rendertarget.h
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\grass.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\lightmap.cpp
+	"engine.h"
+
+1461410909 source:c:\_\work\projects\sauerbraten_android\src\engine\main.cpp
+	"engine.h"
+	"FileIO.h"
+	<mutex>
+	<string>
+	<sstream>
+	<SDL_events.h>
+	<SDL_image.h>
+	<agile.h>
+	<jni.h>
+
+1461021351 source:c:\_\work\projects\sauerbraten_android\src\engine\material.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\menus.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\movie.cpp
+	"engine.h"
+	"SDL2_mixer/SDL_mixer.h"
+	"SDL_mixer.h"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\normal.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\octa.cpp
+	"engine.h"
+
+1461407337 source:c:\_\work\projects\sauerbraten_android\src\engine\octaedit.cpp
+	"engine.h"
+
+1461021474 source:c:\_\work\projects\sauerbraten_android\src\engine\octarender.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\physics.cpp
+	"engine.h"
+	"mpr.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\mpr.h
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\pvs.cpp
+	"engine.h"
+	"SDL_thread.h"
+
+1461409757 source:c:\_\work\projects\sauerbraten_android\src\engine\rendergl.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\rendermodel.cpp
+	"engine.h"
+	"ragdoll.h"
+	"animmodel.h"
+	"vertmodel.h"
+	"skelmodel.h"
+	"md2.h"
+	"md3.h"
+	"md5.h"
+	"obj.h"
+	"smd.h"
+	"iqm.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\ragdoll.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\animmodel.h
+
+1461020637 c:\_\work\projects\sauerbraten_android\src\engine\vertmodel.h
+
+1461021206 c:\_\work\projects\sauerbraten_android\src\engine\skelmodel.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\md2.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\md3.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\md5.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\obj.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\smd.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\iqm.h
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\renderparticles.cpp
+	"engine.h"
+	"rendertarget.h"
+	"depthfx.h"
+	"explosion.h"
+	"lensflare.h"
+	"lightning.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\depthfx.h
+
+1461407274 c:\_\work\projects\sauerbraten_android\src\engine\explosion.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\lensflare.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\lightning.h
+
+1461407365 source:c:\_\work\projects\sauerbraten_android\src\engine\rendersky.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\rendertext.cpp
+	"engine.h"
+
+1461407172 source:c:\_\work\projects\sauerbraten_android\src\engine\renderva.cpp
+	"engine.h"
+
+1461371433 source:c:\_\work\projects\sauerbraten_android\src\engine\server.cpp
+	"engine.h"
+	<mutex>
+	"FileIO.h"
+	"shellapi.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\serverbrowser.cpp
+	"engine.h"
+	"SDL_thread.h"
+
+1461367219 source:c:\_\work\projects\sauerbraten_android\src\engine\shader.cpp
+	"engine.h"
+	<string>
+	"FileIO.h"
+
+1461021762 source:c:\_\work\projects\sauerbraten_android\src\engine\shadowmap.cpp
+	"engine.h"
+	"rendertarget.h"
+
+1461370314 source:c:\_\work\projects\sauerbraten_android\src\engine\sound.cpp
+	"engine.h"
+	"FileIO.h"
+	"SDL2_mixer/SDL_mixer.h"
+	"SDL_mixer.h"
+	<wchar.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/mman.h>
+	<fcntl.h>
+	<wchar.h>
+	<windows.h>
+
+1461370385 source:c:\_\work\projects\sauerbraten_android\src\engine\texture.cpp
+	"engine.h"
+	"FileIO.h"
+	"SDL2_image/SDL_image.h"
+	"SDL_image.h"
+	"scale.h"
+	"scale.h"
+	"scale.h"
+	"scale.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\engine\scale.h
+
+1461021557 source:c:\_\work\projects\sauerbraten_android\src\engine\water.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\world.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\engine\worldio.cpp
+	"engine.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\ai.cpp
+	"game.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\fpsgame\game.h
+	"cube.h"
+	"ai.h"
+
+1461363734 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\client.cpp
+	"game.h"
+	"capture.h"
+	"ctf.h"
+	"collect.h"
+	"capture.h"
+	"ctf.h"
+	"collect.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\fpsgame\capture.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\fpsgame\ctf.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\fpsgame\collect.h
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\entities.cpp
+	"game.h"
+
+1461363379 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\fps.cpp
+	"game.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\monster.cpp
+	"game.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\movable.cpp
+	"game.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\render.cpp
+	"game.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\scoreboard.cpp
+	"game.h"
+
+1461363605 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\server.cpp
+	"game.h"
+	"capture.h"
+	"ctf.h"
+	"collect.h"
+	"capture.h"
+	"ctf.h"
+	"collect.h"
+	"extinfo.h"
+	"aiman.h"
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\fpsgame\extinfo.h
+
+1461004113 c:\_\work\projects\sauerbraten_android\src\fpsgame\aiman.h
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\waypoint.cpp
+	"game.h"
+
+1461004113 source:c:\_\work\projects\sauerbraten_android\src\fpsgame\weapon.cpp
+	"game.h"
+
+1461004114 source:c:\_\work\projects\sauerbraten_android\src\shared\crypto.cpp
+	"cube.h"
+
+1452105925 source:c:\_\work\projects\sauerbraten_android\src\shared\geom.cpp
+	"cube.h"
+
+1461100761 source:c:\_\work\projects\sauerbraten_android\src\shared\glemu.cpp
+	"cube.h"
+
+1461363699 source:c:\_\work\projects\sauerbraten_android\src\shared\stream.cpp
+	"cube.h"
+	"FileIO.h"
+	<shlobj.h>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<dirent.h>
+
+1461365668 source:c:\_\work\projects\sauerbraten_android\src\shared\tools.cpp
+	"engine.h"
+	"FileIO.h"
+	<windows.h>
+	<Winsock2.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sstream>
+
+1461365214 source:c:\_\work\projects\sauerbraten_android\src\shared\zip.cpp
+	"cube.h"
+
+1461004114 source:c:\_\work\projects\sauerbraten_android\src\vcpp\mingw.rc
+	"sauerbraten.rc"
+
+1461004114 c:\_\work\projects\sauerbraten_android\src\vcpp\sauerbraten.rc
+	"winresrc.h"
+
+1461362850 source:c:\_\work\projects\sauerbraten_android\3rdparty\glew-1.11.0\src\glew.c
+	<GL/glew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1449366615 c:\_\work\projects\sauerbraten_android\3rdparty\glew-1.11.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1449366615 c:\_\work\projects\sauerbraten_android\3rdparty\glew-1.11.0\include\gl\wglew.h
+	<windows.h>
+
+1449366615 c:\_\work\projects\sauerbraten_android\3rdparty\glew-1.11.0\include\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+
+1455361629 c:\_\work\projects\sauerbraten_android\src\engine\fileio.h
+	<string>
+	<cstdio>
+	<assert.h>
+	<stdio.h>
+	<SDL_rwops.h>
+
+1461367185 source:c:\_\work\projects\sauerbraten_android\src\engine\fileio.cpp
+	"engine.h"
+	"FileIO.h"
+	<windows.h>
+
