@@ -1,5 +1,21 @@
 Assets/
+
+*.gch
+*.blend1
+*.save-failed
 *.o
+*.exe
+*.gch
+*.save
+*.save-failed
+*.log
+*.depend
+*.layout
+*.suo
+
+/android/obj
+
+/src/vcpp/.objs
 
 /3rdParty/SDL/SDL/VisualC/*.*sdf
 /3rdParty/SDL/SDL/VisualC/SDLtest

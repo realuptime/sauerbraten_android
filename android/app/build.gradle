@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         Cube2 {
-            keyAlias 'MyReleaseKey'
+            keyAlias 'key'
             storeFile file('../key/key.jks')
-            storePassword 'panamea'
-            keyPassword 'panamea'
+            storePassword '123456'
+            keyPassword '123456'
         }
     }
     compileSdkVersion 21
@@ -14,9 +14,9 @@ android {
         applicationId 'app.Cube2.app'
         minSdkVersion 17
         targetSdkVersion 20
-        versionCode 44
-        versionName "2.5"
         signingConfig signingConfigs.Cube2
+        versionCode 1
+        versionName "0.1"
     }
     buildTypes {
         release {
@@ -41,6 +41,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:21.0.0'
-	compile 'com.google.android.gms:play-services-ads:8.3.0'
+    compile 'com.google.android.gms:play-services-ads:8.3.0'
 }
 
