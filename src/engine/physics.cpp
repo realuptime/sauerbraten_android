@@ -13,7 +13,7 @@ static int clipcacheversion = -2;
 static inline clipplanes &getclipplanes(const cube &c, const ivec &o, int size, bool collide = true, int offset = 0)
 {
     clipplanes &p = clipcache[int(&c - worldroot)&(MAXCLIPPLANES-1)];
-    if(p.owner != &c || p.version != clipcacheversion+offset) 
+    if(p.owner != &c || p.version != clipcacheversion+offset)
     {
         p.owner = &c;
         p.version = clipcacheversion+offset;
@@ -359,8 +359,8 @@ ShadowRayCache *newshadowraycache() { return new ShadowRayCache; }
 
 void freeshadowraycache(ShadowRayCache *&cache) { delete cache; cache = NULL; }
 
-void resetshadowraycache(ShadowRayCache *cache) 
-{ 
+void resetshadowraycache(ShadowRayCache *cache)
+{
     cache->version++;
     if(!cache->version)
     {
@@ -810,7 +810,7 @@ static inline bool clampcollide(const clipplanes &p, const E &entvol, const plan
     }
     return false;
 }
-    
+
 template<class E>
 static bool fuzzycollideplanes(physent *d, const vec &dir, float cutoff, const cube &c, const ivec &co, int size) // collide with deformed cube geometry
 {
@@ -1184,7 +1184,7 @@ bool trystepdown(physent *d, vec &dir, float step, float xy, float z, bool init 
             stepfloor.normalize();
             if(d->physstate >= PHYS_SLOPE && d->floor != stepfloor)
             {
-                // prevent alternating step-down/step-up states if player would keep bumping into the same floor 
+                // prevent alternating step-down/step-up states if player would keep bumping into the same floor
                 vec stepped(d->o);
                 d->o.z -= 0.5f;
                 d->zmargin = -0.5f;
@@ -1464,14 +1464,14 @@ bool droptofloor(vec &o, float radius, float height)
 {
     static struct dropent : physent
     {
-        dropent() 
-        { 
-            type = ENT_BOUNCE; 
+        dropent()
+        {
+            type = ENT_BOUNCE;
             vel = vec(0, 0, -1);
         }
     } d;
     d.o = o;
-    if(!insideworld(d.o)) 
+    if(!insideworld(d.o))
     {
         if(d.o.z < worldsize) return false;
         d.o.z = worldsize - 1e-3f;
@@ -1727,6 +1727,11 @@ void physicsframe()          // optimally schedule physics frames inside the gra
         physframetime = clamp(game::scaletime(PHYSFRAMETIME)/100, 1, PHYSFRAMETIME);
         physsteps = (diff + physframetime - 1)/physframetime;
         lastphysframe += physsteps * physframetime;
+        if (physsteps > 10)
+        {
+            // TODO: Find a better way
+            physsteps = 10;
+        }
     }
     cleardynentcache();
 }
