@@ -167,8 +167,14 @@ static void compileglslshader(GLenum type, GLuint &obj, const char *def, const c
     }
 	if (glslversion == 100)
 	{
-		parts[numparts++] = "precision lowp float;\n";
-		//parts[numparts++] = "precision highp float;\n";
+	    // Try to use highp precision
+	    // Saw glitches in world shaders on samsung devices
+		parts[numparts++] = "\n"
+		"#ifdef GL_FRAGMENT_PRECISION_HIGH\n"
+        "   precision highp float;\n"
+        "#else\n"
+        "   precision mediump float;\n"
+        "#endif\n";
 	}
     parts[numparts++] = source;
 

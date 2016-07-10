@@ -2,10 +2,55 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="client32" />
-	<File name="..\engine\engine.h" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\shared\stream.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="443" topLine="0" />
+			<Cursor1 position="19367" topLine="461" />
 		</Cursor>
 	</File>
-	<EditorTabsLayout layout="0ab1a4085717ce2a0558cfcc00000002=*0;sauerbraten:..\engine\engine.h@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=754;besth=261;minw=754;minh=261;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=0ab1a4085717ce2a0558cfcc00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+	<File name="..\engine\main.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2851" topLine="111" />
+		</Cursor>
+	</File>
+	<File name="..\engine\engine.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="278" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="..\shared\tools.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10595" topLine="473" />
+		</Cursor>
+	</File>
+	<File name="..\shared\tools.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1139" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="..\engine\3dgui.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2089" topLine="68" />
+		</Cursor>
+	</File>
+	<File name="..\engine\FileIO.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5706" topLine="236" />
+		</Cursor>
+	</File>
+	<File name="..\engine\shader.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6942" topLine="193" />
+		</Cursor>
+	</File>
+	<File name="..\..\3rdparty\glew-1.11.0\src\glew.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="139548" topLine="2553" />
+		</Cursor>
+	</File>
+	<File name="..\engine\physics.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="57965" topLine="1707" />
+		</Cursor>
+	</File>
+	<EditorTabsLayout layout="@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=754;besth=307;minw=754;minh=307;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
 </CodeBlocks_layout_file>
